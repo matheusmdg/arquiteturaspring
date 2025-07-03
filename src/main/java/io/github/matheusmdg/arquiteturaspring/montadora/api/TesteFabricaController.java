@@ -1,11 +1,10 @@
-package io.github.matheusmdg.arquiteturaspring.api;
+package io.github.matheusmdg.arquiteturaspring.montadora.api;
 
 import io.github.matheusmdg.arquiteturaspring.montadora.CarroStatus;
 import io.github.matheusmdg.arquiteturaspring.montadora.Chave;
 import io.github.matheusmdg.arquiteturaspring.montadora.HondaHRV;
 import io.github.matheusmdg.arquiteturaspring.montadora.Motor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package io.github.matheusmdg.arquiteturaspring.api;
+package io.github.matheusmdg.arquiteturaspring.montadora.api;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 
