@@ -14,8 +14,9 @@ public class Application {
 		//SpringApplication.run(Application.class, args);
 		SpringApplicationBuilder builder = new SpringApplicationBuilder(Application.class);
 
-		builder.profiles("producao", "desenvolvimento");
 		builder.bannerMode(Banner.Mode.OFF);
+		builder.profiles("producao", "desenvolvimento");
+		builder.lazyInitialization(true);
 		builder.run(args);
 
 		//contexto da aplicação
